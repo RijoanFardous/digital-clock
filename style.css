@@ -1,0 +1,73 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 500px;
+    height: 210px;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.time {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.time div {
+    width: 30%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px){
+    main {
+        width: 280px;
+        height: 400px;
+    }
+    .time {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+}
